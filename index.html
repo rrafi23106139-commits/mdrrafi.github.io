@@ -7,14 +7,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         html { scroll-behavior: smooth; }
+        
         /* Using the truss drawing as a cover background with a strong blue overlay */
         .hero-cover { 
             background-color: #1e3a8a; 
-            background-image: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(59, 130, 246, 0.85) 100%), url('rafi-profile.jpg'); 
+            
+            /* =========================================================
+            CHANGE COVER BACKGROUND PICTURE HERE: 
+            Replace '1000019124.jpg' with your new cover image name
+            =========================================================
+            */
+            background-image: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(59, 130, 246, 0.85) 100%), url('1000019124.jpg'); 
+            
             background-size: cover;
             background-position: center;
             background-blend-mode: multiply;
         }
+        
         section { scroll-margin-top: 100px; }
         .section-title { position: relative; padding-bottom: 0.5rem; margin-bottom: 2rem; color: #1e3a8a; font-weight: bold; font-size: 1.875rem; }
         .section-title::after { content: ''; position: absolute; left: 0; bottom: 0; height: 3px; width: 60px; background-color: #3b82f6; }
@@ -41,6 +50,12 @@
     <header id="home" class="hero-cover text-white py-24 px-6 text-center shadow-inner relative">
         <div class="container mx-auto max-w-4xl relative z-10">
             <div class="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white shadow-xl bg-gray-200">
+                <!-- 
+                =========================================================
+                CHANGE MAIN PROFILE PICTURE HERE: 
+                Replace '1000006224.png' with your new profile image name
+                =========================================================
+                -->
                 <img src="1000006224.png" alt="Md R Rafi" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://placehold.co/200x200/e2e8f0/475569?text=Profile+Picture'">
             </div>
             
@@ -167,7 +182,20 @@
                         </div>
                     </div>
                     <div class="lg:w-1/3 grid gap-3">
+                        <!-- 
+                        =========================================================
+                        CHANGE TRUSS DIAGRAM 1 HERE: 
+                        Replace '1000019124.jpg' with your new image name
+                        =========================================================
+                        -->
                         <img src="1000019124.jpg" alt="Truss Diagram 1" class="w-full h-32 object-cover bg-white rounded-lg shadow-sm border border-gray-200" onerror="this.onerror=null; this.src='https://placehold.co/400x300/e2e8f0/475569?text=Truss+Drawing+1'">
+                        
+                        <!-- 
+                        =========================================================
+                        CHANGE TRUSS DIAGRAM 2 HERE: 
+                        Replace '1000019125.jpg' with your new image name
+                        =========================================================
+                        -->
                         <img src="1000019125.jpg" alt="Truss Diagram 2" class="w-full h-32 object-cover bg-white rounded-lg shadow-sm border border-gray-200" onerror="this.onerror=null; this.src='https://placehold.co/400x300/e2e8f0/475569?text=Truss+Drawing+2'">
                     </div>
                 </div>
@@ -267,6 +295,12 @@
                 
                 <div class="bg-gradient-to-br from-blue-900 to-blue-700 text-white p-6 rounded-xl shadow-md lg:col-span-2">
                     <div class="float-right w-14 h-14 ml-4 bg-white rounded flex items-center justify-center p-1">
+                        <!-- 
+                        =========================================================
+                        CHANGE IMS LOGO PICTURE HERE: 
+                        Replace '1000046856.jpg' with your new image name
+                        =========================================================
+                        -->
                         <img src="1000046856.jpg" alt="IMS Logo" class="w-full h-full object-contain rounded" onerror="this.onerror=null; this.src='https://placehold.co/100x100/ffffff/1e3a8a?text=IMS'">
                     </div>
                     <p class="text-blue-200 font-semibold mb-1 text-sm uppercase tracking-wider">Society Leadership</p>
@@ -320,6 +354,12 @@
                         </ul>
                     </div>
                     <div class="lg:w-1/3">
+                        <!-- 
+                        =========================================================
+                        CHANGE SEMINAR PHOTO HERE: 
+                        Replace '1000045646.jpg' with your new image name
+                        =========================================================
+                        -->
                         <img src="1000045646.jpg" alt="Industrial Seminar" class="w-full h-48 object-cover rounded shadow-sm border border-gray-200" onerror="this.onerror=null; this.src='https://placehold.co/400x300/e2e8f0/475569?text=Seminar+Photo'">
                     </div>
                 </div>
@@ -357,19 +397,54 @@
             <p class="text-gray-600 mb-6">A visual collection of events, awards, and professional portraits. <br><span class="text-xs text-gray-400 italic">(Note: I have updated the code below to look for `.jpg` extensions assuming you have converted your `.heic` files).</span></p>
             
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                
                 <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden border">
+                    <!-- 
+                    =========================================================
+                    CHANGE GALLERY IMAGE 1 (Award) HERE: 
+                    Replace '1000022836.jpg' with your new image name
+                    =========================================================
+                    -->
                     <img src="1000022836.jpg" alt="Award Ceremony" class="w-full h-full object-cover hover:scale-110 transition duration-300" onerror="this.onerror=null; this.src='https://placehold.co/300x300/e2e8f0/475569?text=Award+Ceremony'">
                 </div>
+                
                 <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden border">
+                    <!-- 
+                    =========================================================
+                    CHANGE GALLERY IMAGE 2 (Portrait) HERE: 
+                    Replace '1000022162.jpg' with your new image name
+                    =========================================================
+                    -->
                     <img src="1000022162.jpg" alt="Professional Portrait 1" class="w-full h-full object-cover hover:scale-110 transition duration-300" onerror="this.onerror=null; this.src='https://placehold.co/300x300/e2e8f0/475569?text=Portrait+1'">
                 </div>
+                
                 <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden border">
+                    <!-- 
+                    =========================================================
+                    CHANGE GALLERY IMAGE 3 (Portrait) HERE: 
+                    Replace '1000022163.jpg' with your new image name
+                    =========================================================
+                    -->
                     <img src="1000022163.jpg" alt="Professional Portrait 2" class="w-full h-full object-cover hover:scale-110 transition duration-300" onerror="this.onerror=null; this.src='https://placehold.co/300x300/e2e8f0/475569?text=Portrait+2'">
                 </div>
+                
                 <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden border">
+                    <!-- 
+                    =========================================================
+                    CHANGE GALLERY IMAGE 4 (Portrait) HERE: 
+                    Replace '1000022161.jpg' with your new image name
+                    =========================================================
+                    -->
                     <img src="1000022161.jpg" alt="Professional Portrait 3" class="w-full h-full object-cover hover:scale-110 transition duration-300" onerror="this.onerror=null; this.src='https://placehold.co/300x300/e2e8f0/475569?text=Portrait+3'">
                 </div>
+                
                 <div class="aspect-square bg-gray-200 rounded-lg overflow-hidden border">
+                    <!-- 
+                    =========================================================
+                    CHANGE GALLERY IMAGE 5 (Portrait) HERE: 
+                    Replace '1000022168.jpg' with your new image name
+                    =========================================================
+                    -->
                     <img src="1000022168.jpg" alt="Professional Portrait 4" class="w-full h-full object-cover hover:scale-110 transition duration-300" onerror="this.onerror=null; this.src='https://placehold.co/300x300/e2e8f0/475569?text=Portrait+4'">
                 </div>
             </div>
